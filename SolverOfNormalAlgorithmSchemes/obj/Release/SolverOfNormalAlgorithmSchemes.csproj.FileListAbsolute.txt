@@ -7,3 +7,4 @@ C:\Users\groser\source\repos\SolverOfNormalAlgorithmSchemes\SolverOfNormalAlgori
 C:\Users\groser\source\repos\SolverOfNormalAlgorithmSchemes\SolverOfNormalAlgorithmSchemes\obj\Release\SolverOfNormalAlgorithmSchemes.csproj.CoreCompileInputs.cache
 C:\Users\groser\source\repos\SolverOfNormalAlgorithmSchemes\SolverOfNormalAlgorithmSchemes\obj\Release\SolverOfNormalAlgorithmSchemes.exe
 C:\Users\groser\source\repos\SolverOfNormalAlgorithmSchemes\SolverOfNormalAlgorithmSchemes\obj\Release\SolverOfNormalAlgorithmSchemes.pdb
+C:\Users\groser\source\repos\SolverOfNormalAlgorithmSchemes\SolverOfNormalAlgorithmSchemes\obj\Release\SolverOfNormalAlgorithmSchemes.csprojAssemblyReference.cache

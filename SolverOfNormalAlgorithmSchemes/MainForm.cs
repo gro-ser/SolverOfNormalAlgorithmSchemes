@@ -19,10 +19,10 @@ namespace SolverOfNormalAlgorithmSchemes
 
         private void ApplyScheme(object sender, EventArgs e)
         {
-            var Scheme = new Scheme(scheme.Lines);
-            stages.Text = Scheme.ToString();
+            var scheme = new Scheme(this.scheme.Lines);
+            stages.Text = scheme.ToString();
             stages.AppendText("\r\n");
-            result.Text = Scheme.ApplyAll(word.Text, stages);
+            result.Text = scheme.ApplyAll(word.Text, stages);
         }
 
         private void ExampleCliked(object sender, LinkLabelLinkClickedEventArgs e)

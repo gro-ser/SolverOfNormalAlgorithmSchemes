@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 using static SolverOfNormalAlgorithmSchemes.Permutation;
 
@@ -10,7 +7,7 @@ namespace SolverOfNormalAlgorithmSchemes
 {
     public class VariableConstants
     {
-        public string emptyWorld { get; set; } = "(e)";
+        public string emptyWord { get; set; } = "(e)";
         public string arrow { get; set; } = "->";
         public string arrowEndig { get; set; } = "->.";
         public int maxRepetitions { get; set; } = 15;
@@ -28,8 +25,8 @@ namespace SolverOfNormalAlgorithmSchemes
             this.ending = ending;
         }
 
-        public static string emptyToString(string str) => str == vc.emptyWorld ? "" : str;
-        public static string stringToEmpty(string str) => str == "" ? vc.emptyWorld : str;
+        public static string emptyToString(string str) => str == vc.emptyWord ? "" : str;
+        public static string stringToEmpty(string str) => str == "" ? vc.emptyWord : str;
 
         static public Permutation Parse(string str)
         {

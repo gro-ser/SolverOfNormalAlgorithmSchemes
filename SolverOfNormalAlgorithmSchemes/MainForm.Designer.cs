@@ -1,4 +1,6 @@
-﻿namespace SolverOfNormalAlgorithmSchemes
+﻿using System.Windows.Forms;
+
+namespace SolverOfNormalAlgorithmSchemes
 {
     partial class MainForm
     {
@@ -28,22 +30,22 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.word = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.scheme = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.result = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.stages = new System.Windows.Forms.TextBox();
-            this.example1 = new System.Windows.Forms.LinkLabel();
-            this.example2 = new System.Windows.Forms.LinkLabel();
-            this.example3 = new System.Windows.Forms.LinkLabel();
-            this.propertyGrid1 = new System.Windows.Forms.PropertyGrid();
-            this.label4 = new System.Windows.Forms.Label();
-            this.example4 = new System.Windows.Forms.LinkLabel();
-            this.example5 = new System.Windows.Forms.LinkLabel();
-            this.example6 = new System.Windows.Forms.LinkLabel();
+            this.label1 = new Label();
+            this.word = new TextBox();
+            this.label2 = new Label();
+            this.scheme = new TextBox();
+            this.label3 = new Label();
+            this.result = new TextBox();
+            this.button1 = new Button();
+            this.stages = new TextBox();
+            this.example1 = new LinkLabel();
+            this.example2 = new LinkLabel();
+            this.example3 = new LinkLabel();
+            this.propertyGrid1 = new PropertyGrid();
+            this.label4 = new Label();
+            this.example4 = new LinkLabel();
+            this.example5 = new LinkLabel();
+            this.example6 = new LinkLabel();
             this.SuspendLayout();
             // 
             // label1
@@ -76,7 +78,7 @@
             this.scheme.Location = new System.Drawing.Point(10, 71);
             this.scheme.Multiline = true;
             this.scheme.Name = "scheme";
-            this.scheme.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.scheme.ScrollBars = ScrollBars.Vertical;
             this.scheme.Size = new System.Drawing.Size(184, 126);
             this.scheme.TabIndex = 3;
             // 
@@ -108,60 +110,60 @@
             // 
             // stages
             // 
-            this.stages.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.stages.Anchor = ((AnchorStyles)((((AnchorStyles.Top | AnchorStyles.Bottom) 
+            | AnchorStyles.Left) 
+            | AnchorStyles.Right)));
             this.stages.Location = new System.Drawing.Point(211, 27);
             this.stages.Multiline = true;
             this.stages.Name = "stages";
-            this.stages.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.stages.ScrollBars = ScrollBars.Both;
             this.stages.Size = new System.Drawing.Size(420, 522);
             this.stages.TabIndex = 7;
             this.stages.WordWrap = false;
             // 
             // example1
             // 
-            this.example1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.example1.Anchor = ((AnchorStyles)((AnchorStyles.Top | AnchorStyles.Right)));
             this.example1.AutoSize = true;
             this.example1.Location = new System.Drawing.Point(637, 27);
-            this.example1.Margin = new System.Windows.Forms.Padding(3);
+            this.example1.Margin = new Padding(3);
             this.example1.Name = "example1";
             this.example1.Size = new System.Drawing.Size(140, 30);
             this.example1.TabIndex = 8;
             this.example1.TabStop = true;
             this.example1.Text = "example1: Σ={a,b}\r\nDelete first symbol";
-            this.example1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExampleCliked);
+            this.example1.LinkClicked += new LinkLabelLinkClickedEventHandler(this.ExampleCliked);
             // 
             // example2
             // 
-            this.example2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.example2.Anchor = ((AnchorStyles)((AnchorStyles.Top | AnchorStyles.Right)));
             this.example2.AutoSize = true;
             this.example2.Location = new System.Drawing.Point(637, 73);
-            this.example2.Margin = new System.Windows.Forms.Padding(3);
+            this.example2.Margin = new Padding(3);
             this.example2.Name = "example2";
             this.example2.Size = new System.Drawing.Size(133, 30);
             this.example2.TabIndex = 9;
             this.example2.TabStop = true;
             this.example2.Text = "example2: Σ={a,b}\r\nDelete last symbol";
-            this.example2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExampleCliked);
+            this.example2.LinkClicked += new LinkLabelLinkClickedEventHandler(this.ExampleCliked);
             // 
             // example3
             // 
-            this.example3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.example3.Anchor = ((AnchorStyles)((AnchorStyles.Top | AnchorStyles.Right)));
             this.example3.AutoSize = true;
             this.example3.Location = new System.Drawing.Point(637, 119);
-            this.example3.Margin = new System.Windows.Forms.Padding(3);
+            this.example3.Margin = new Padding(3);
             this.example3.Name = "example3";
             this.example3.Size = new System.Drawing.Size(133, 30);
             this.example3.TabIndex = 10;
             this.example3.TabStop = true;
             this.example3.Text = "example3: Σ={|}\r\nMultiply number *2";
-            this.example3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExampleCliked);
+            this.example3.LinkClicked += new LinkLabelLinkClickedEventHandler(this.ExampleCliked);
             // 
             // propertyGrid1
             // 
-            this.propertyGrid1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.propertyGrid1.Anchor = ((AnchorStyles)(((AnchorStyles.Top | AnchorStyles.Bottom) 
+            | AnchorStyles.Left)));
             this.propertyGrid1.Location = new System.Drawing.Point(10, 283);
             this.propertyGrid1.Name = "propertyGrid1";
             this.propertyGrid1.Size = new System.Drawing.Size(182, 266);
@@ -178,47 +180,47 @@
             // 
             // example4
             // 
-            this.example4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.example4.Anchor = ((AnchorStyles)((AnchorStyles.Top | AnchorStyles.Right)));
             this.example4.AutoSize = true;
             this.example4.Location = new System.Drawing.Point(637, 165);
-            this.example4.Margin = new System.Windows.Forms.Padding(3);
+            this.example4.Margin = new Padding(3);
             this.example4.Name = "example4";
             this.example4.Size = new System.Drawing.Size(112, 30);
             this.example4.TabIndex = 11;
             this.example4.TabStop = true;
             this.example4.Text = "example4: Σ={|}\r\nIs number even";
-            this.example4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExampleCliked);
+            this.example4.LinkClicked += new LinkLabelLinkClickedEventHandler(this.ExampleCliked);
             // 
             // example5
             // 
-            this.example5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.example5.Anchor = ((AnchorStyles)((AnchorStyles.Top | AnchorStyles.Right)));
             this.example5.AutoSize = true;
             this.example5.Location = new System.Drawing.Point(637, 211);
-            this.example5.Margin = new System.Windows.Forms.Padding(3);
+            this.example5.Margin = new Padding(3);
             this.example5.Name = "example5";
             this.example5.Size = new System.Drawing.Size(140, 30);
             this.example5.TabIndex = 12;
             this.example5.TabStop = true;
             this.example5.Text = "example5: Σ={a,b,c}\r\nDelete all symbols";
-            this.example5.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExampleCliked);
+            this.example5.LinkClicked += new LinkLabelLinkClickedEventHandler(this.ExampleCliked);
             // 
             // example6
             // 
-            this.example6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.example6.Anchor = ((AnchorStyles)((AnchorStyles.Top | AnchorStyles.Right)));
             this.example6.AutoSize = true;
             this.example6.Location = new System.Drawing.Point(637, 257);
-            this.example6.Margin = new System.Windows.Forms.Padding(3);
+            this.example6.Margin = new Padding(3);
             this.example6.Name = "example6";
             this.example6.Size = new System.Drawing.Size(126, 30);
             this.example6.TabIndex = 11;
             this.example6.TabStop = true;
             this.example6.Text = "example6: Σ={+}\r\nInfinity addition";
-            this.example6.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.ExampleCliked);
+            this.example6.LinkClicked += new LinkLabelLinkClickedEventHandler(this.ExampleCliked);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleMode = AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(784, 561);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.propertyGrid1);
@@ -247,22 +249,24 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox word;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox scheme;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox result;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox stages;
-        private System.Windows.Forms.LinkLabel example1;
-        private System.Windows.Forms.LinkLabel example2;
-        private System.Windows.Forms.LinkLabel example3;
-        private System.Windows.Forms.PropertyGrid propertyGrid1;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.LinkLabel example4;
-        private System.Windows.Forms.LinkLabel example5;
-        private System.Windows.Forms.LinkLabel example6;
+        private Label label1;
+        private TextBox word;
+        private Label label2;
+        private TextBox scheme;
+        private Label label3;
+        private TextBox result;
+        private Button button1;
+        private TextBox stages;
+        private LinkLabel example1;
+        private LinkLabel example2;
+        private LinkLabel example3;
+        private PropertyGrid propertyGrid1;
+        private Label label4;
+        private LinkLabel example4;
+        private LinkLabel example5;
+        private LinkLabel example6;
+
+        public Label Label1 { get => label1; set => label1 = value; }
     }
 }
 
