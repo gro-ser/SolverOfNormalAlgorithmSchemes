@@ -8,7 +8,7 @@ namespace SolverOfNormalAlgorithmSchemes
         public MainForm()
         {
             InitializeComponent();
-            propertyGrid1.SelectedObject = Permutation.vc;
+            propertyGrid.SelectedObject = Permutation.settings;
             example1.Tag = "aabbaa\0*a->.\r\n*b->.\r\n->*";
             example2.Tag = "baba\0*a->a*\r\n*b->b*\r\na*->.\r\nb*->.\r\n->*";
             example3.Tag = "|||\0*|->||*\r\n*->.\r\n->*";
